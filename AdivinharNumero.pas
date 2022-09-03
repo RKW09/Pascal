@@ -17,7 +17,7 @@ begin
     read(chute);
     tentativas:= tentativas +1;
   
-    if (chute = numero) then
+    if chute = numero then
       writeln ('Voce Acertou! Nº Tentativas: ', tentativas)
     else
       if chute > numero then
